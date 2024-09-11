@@ -1,0 +1,45 @@
+.box {
+  display: flex;
+  flex-direction: column;
+}
+.color {
+  display: flex;
+  flex-direction: row;
+}
+.test {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  color: white;
+}
+.color1 {
+  background-color: #1abc9c;
+}
+
+.color2 {
+  background-color: #2ecc71;
+}
+.color3 {
+  background-color: #3498db;
+}
+.color4 {
+  background-color: #16a085;
+}
+.color5 {
+  background-color: #27ae60;
+}
+.color6 {
+  background-color: #2980b9;
+}
+.color7 {
+  background-color: #f1c40f;
+}
+.color8 {
+  background-color: #e67e22;
+}
+.color9 {
+  background-color: #e74c3c;
+}

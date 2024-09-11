@@ -1,0 +1,36 @@
+.box {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+.test {
+  width: 100px;
+  height: 100px;
+}
+.one {
+  background-color: green;
+}
+.two {
+  background-color: yellow;
+}
+.three {
+  background-color: red;
+}
+
+.code {
+  justify-content: start;
+  justify-content: center;
+  justify-content: end;
+
+  justify-content: space-around;
+  justify-content: space-evenly;
+  justify-content: space-between;
+
+  align-items: start;
+  align-items: center;
+  align-items: end;
+}

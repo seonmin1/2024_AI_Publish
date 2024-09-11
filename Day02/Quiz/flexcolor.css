@@ -1,0 +1,18 @@
+.color1 {
+  width: 300px;
+  height: 400px;
+  background-color: #1abc9c;
+  border: 1px solid #1abc9c;
+}
+.color2 {
+  background-color: #2ecc71;
+  border: 1px solid #2ecc71;
+}
+.color3 {
+  background-color: #3498db;
+  border: 1px solid #3498db;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+}
