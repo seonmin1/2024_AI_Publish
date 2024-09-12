@@ -1,0 +1,62 @@
+.card1 {
+  width: 300px;
+  height: 400px;
+  background-image: url("hotel1.jpg");
+  background-size: cover;
+  border-radius: 20px;
+}
+.ment {
+  color: white;
+  padding-top: 20px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.one {
+  font-size: 15px;
+  border-bottom: 1px solid white;
+  width: fit-content;
+}
+.two {
+  font-size: 25px;
+}
+.three {
+  font-size: 25px;
+}
+.four {
+  font-size: 16px;
+}
+.card2 {
+  width: 300px;
+  height: 400px;
+  background-image: url("hotel2.jpg");
+  background-size: cover;
+  border-radius: 20px;
+}
+.card3 {
+  width: 300px;
+  height: 400px;
+  background-image: url("hotel3.jpg");
+  background-size: cover;
+  border-radius: 20px;
+}
+.card4 {
+  width: 300px;
+  height: 400px;
+  background-image: url("hotel4.jpg");
+  background-size: cover;
+  border-radius: 20px;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+@font-face {
+  font-family: "PartialSansKR-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/PartialSansKR-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}

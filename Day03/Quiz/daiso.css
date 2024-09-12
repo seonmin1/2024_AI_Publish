@@ -1,0 +1,77 @@
+.daiso {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.head {
+  font-size: 30px;
+  font-weight: 900;
+}
+.head1 {
+  font-size: 30px;
+  font-weight: 900;
+  color: #8792a0;
+}
+.head2 {
+  font-size: 15px;
+  font-weight: 900;
+  color: #969fb2;
+}
+.album {
+  width: 200px;
+  height: 250px;
+}
+.album > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.price {
+  font-size: 20px;
+  font-weight: 700;
+}
+.memo1 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #525252;
+}
+.memo2 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #cfcfcf;
+}
+.memo3 {
+  color: red;
+  border: 1px solid red;
+  border-radius: 6px;
+  background-color: white;
+  font-size: 10px;
+  width: 35px;
+  height: 20px;
+}
+.color {
+  background: red;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  left: 130px;
+  bottom: 75px;
+  border-radius: 999px;
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+}
