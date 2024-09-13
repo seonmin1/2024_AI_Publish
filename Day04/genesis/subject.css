@@ -1,0 +1,28 @@
+.subject {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  background-color: black;
+}
+.sub__main {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 30px;
+}
+.sub__contents1 {
+  font-size: 40px;
+}
+.sub__contents2 {
+  font-size: 15px;
+}
+.sub__contents3 {
+  border-bottom: 1px solid white;
+  width: fit-content;
+  font-size: 15px;
+  padding: 10px;
+}

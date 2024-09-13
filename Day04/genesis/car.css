@@ -1,0 +1,39 @@
+.car {
+  width: 100vw;
+  height: 400px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+.car__centeredbox {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  color: white;
+}
+.car__album {
+  width: 250px;
+  padding: 70px 0px;
+}
+.car__album > img {
+  width: 100%;
+  object-fit: cover;
+}
+.car__memo {
+  border: 1px solid white;
+  width: fit-content;
+  padding: 10px 80px;
+  transition: all 1s;
+}
+.car__name {
+  display: flex;
+  flex-direction: row;
+  opacity: 0.8;
+}
+.car__name2 {
+  border: 1px solid white;
+  margin-left: 130px;
+}
+.car__memo:hover {
+  transform: translateY(-10px);
+}
