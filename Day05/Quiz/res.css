@@ -1,0 +1,43 @@
+/* 1024px 이상 pc - 가로 4줄 */
+.box {
+  display: flex;
+  flex-direction: row;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.color1 {
+  width: 300px;
+  height: 200px;
+  background-color: #1abc9c;
+}
+.color2 {
+  width: 300px;
+  height: 200px;
+  background-color: #2ecc71;
+}
+.color3 {
+  width: 300px;
+  height: 200px;
+  background-color: #3498db;
+}
+.color4 {
+  width: 300px;
+  height: 200px;
+  background-color: #9b59b6;
+}
+
+/* 768~1024 tablet - 2*2 */
+@media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+/* 768이하 mobile - 세로 2줄 */
+@media screen and (max-width: 768px) {
+  .box {
+    flex-direction: column;
+  }
+}
